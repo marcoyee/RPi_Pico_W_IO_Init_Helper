@@ -157,6 +157,11 @@ void MainWindow::Modify_Individual_Tap_ComboBox(int Combobox_Index, int Selected
 
 }
 
+void MainWindow::Set_Individual_Tap_GPIO(int)
+{
+
+}
+
 void MainWindow::Set_Individual_Tap_SPI0(int GPIO_Index)
 {
     switch(GPIO_Index)
@@ -228,7 +233,7 @@ void MainWindow::Set_Individual_Tap_I2C0(int GPIO_Index)
         case 1:
             Modify_Individual_Tap_ComboBox(0,4,true);
             Modify_Individual_Tap_ComboBox(1,4,false);
-            if(ui->GPIO_3_CB->currentIndex() > 3);
+            //if(ui->GPIO_3_CB->currentIndex() > 3)
             break;
         case 4:
         case 5:
@@ -248,6 +253,21 @@ void MainWindow::Set_Individual_Tap_I2C0(int GPIO_Index)
 }
 
 void MainWindow::Set_Individual_Tap_I2C1(int)
+{
+
+}
+
+void MainWindow::Set_Individual_Tap_UART0(int)
+{
+
+}
+
+void MainWindow::Set_Individual_Tap_UART1(int)
+{
+
+}
+
+void MainWindow::Set_Individual_Tap_ADC(int)
 {
 
 }
