@@ -1525,7 +1525,7 @@
        </item>
        <item>
         <property name="text">
-         <string>I2C SDA</string>
+         <string>I2C1 SDA</string>
         </property>
        </item>
       </widget>
