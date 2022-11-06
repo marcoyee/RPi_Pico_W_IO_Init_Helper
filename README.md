@@ -1,4 +1,4 @@
 # RPi Pico W IO C++ Initial Helper
 
-Prohect Halt!
+Project Halt!
 - Resume after HW ready
